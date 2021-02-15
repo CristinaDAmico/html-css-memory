@@ -8,3 +8,21 @@
 body{
     font-family: 'Nerko One', cursive;
 }
+
+.container{
+    width: 1000px;
+    height: 800px;
+    background-color: lightblue;
+    margin: auto;
+}
+
+/* HEADER */
+header h1{
+    font-size: 60px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px rgb(17, 110, 141);
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+
