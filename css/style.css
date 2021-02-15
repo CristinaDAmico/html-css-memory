@@ -38,6 +38,24 @@ header h1{
     float: left;
     width: calc(100% / 4 - 20px);
     box-shadow: 3px 3px rgba(17, 110, 141, 0.3);
+    position: relative;
 }
 
+.carte img{
+    width: 100%;
+}
 
+.carte .title{
+    font-size: 30px;
+    position: absolute;
+    bottom: 0px;  
+    left: 25px; 
+}
+
+#air-ballon{
+    color: rgb(236, 76, 103);
+}
+
+.carte :hover{
+    visibility: visible;    
+}
