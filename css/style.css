@@ -15,6 +15,13 @@ body{
     margin: auto;
 }
 
+/* UTILITY */
+.clearfix::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
 /* HEADER */
 header h1{
     font-size: 60px;
@@ -97,6 +104,7 @@ header h1{
 }
 
 /* FOOTER */
-h4{
+footer h4{
     text-align: center;
+    padding: 15px;
 }
