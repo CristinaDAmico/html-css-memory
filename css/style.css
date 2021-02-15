@@ -15,9 +15,6 @@ body{
     margin: auto;
 }
 
-/* UTILITY */
-
-
 /* HEADER */
 header h1{
     font-size: 60px;
@@ -55,10 +52,6 @@ header h1{
     display: none;
 }
 
-#air-ballon{
-    color: rgb(236, 76, 103);
-}
-
 .carte:hover{
     background-image: none;
     visibility: visible;    
@@ -68,3 +61,29 @@ header h1{
 .carte:hover img{
     display: block;  
 }
+
+#air-ballon{
+    color: rgb(236, 76, 103);
+}
+
+#bicycle{
+    color: blue;
+}
+
+#ship{
+    color: green;
+}
+
+#submarine{
+    color: red;
+}
+
+#tractor{
+    color: orange;
+}
+
+#tram{
+    color: yellow;
+}
+
+
