@@ -7,14 +7,16 @@
 
 body{
     font-family: 'Nerko One', cursive;
+    background-color: lightblue;
 }
 
 .container{
-    width: 1000px;
-    height: 800px;
-    background-color: lightblue;
+    width: 800px;
     margin: auto;
 }
+
+/* UTILITY */
+
 
 /* HEADER */
 header h1{
@@ -25,4 +27,17 @@ header h1{
     color: white;
     padding: 10px;
 }
+
+/* MAIN-CONTENT */
+.section .carte{
+    height: 200px;
+    background-image: url(../img/pattern.png);
+    background-size: contain;
+    border-radius: 10px;
+    margin: 10px;
+    float: left;
+    width: calc(100% / 4 - 20px);
+    box-shadow: 3px 3px rgba(17, 110, 141, 0.3);
+}
+
 
