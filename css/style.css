@@ -39,10 +39,12 @@ header h1{
     width: calc(100% / 4 - 20px);
     box-shadow: 3px 3px rgba(17, 110, 141, 0.3);
     position: relative;
+    background-color: white;
 }
 
 .carte img{
     width: 100%;
+    display: none;
 }
 
 .carte .title{
@@ -50,12 +52,19 @@ header h1{
     position: absolute;
     bottom: 0px;  
     left: 25px; 
+    display: none;
 }
 
 #air-ballon{
     color: rgb(236, 76, 103);
 }
 
-.carte :hover{
+.carte:hover{
+    background-image: none;
     visibility: visible;    
+}
+
+.carte:hover .title,
+.carte:hover img{
+    display: block;  
 }
